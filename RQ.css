@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+body {
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-image: url(/RQ/Assets/Background.png);
+	background-position: center;
+}
+
+.navBar {
+	font-family: 'Anton', sans-serif;
+	display: flex;
+	background-color: #f1c61b;
+	margin: 0;
+	padding: 5px;
+}
+
+ul>li>a {
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 3px 3px 4px black;
+	
+}
+
+.icon {
+	margin: 0;
+	padding-left: 10px;
+	width: 60px;
+	height: 60px;
+}
+
+.iconContainer {
+	display: flex;
+	justify-content: flex-start;
+	align-items: flex-start;
+}
+
+.navList {
+	margin: 0;
+	padding-top: 12px;
+	list-style: none;
+	display: flex;
+	flex-direction: row;
+}
+
+.listContainer {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.navButton {
+	padding: 0 25px;
+}
+
+.content {
+	padding: 20px;
+	display: flex;
+	flex-direction: row;
+	padding-left: 75px;
+	padding-top: 30px;
+	justify-content: center;
+}
+
+.bemVindo {
+	padding-top: 5px;
+	font-size: 23px;
+	text-shadow: 3px 3px 4px black;
+	color: #fff;
+	font-family: 'Anton', sans-serif;
+	padding-right: 10px;
+}
+
+.RQ {
+	margin: 0;
+	width: 450px;
+	height: 20%; 
+}
+
+
+.box1-2 {
+	height: 600px;
+	display: flex;
+	flex-direction: row;
+} 
+
+.box1 {
+	margin: 0;
+	background-color: #fff;
+	margin-left: 100px;
+	height: 600px;
+	width: 850px;
+	border-radius: 2px;
+} 
+
+.texto {
+	margin: 0;
+	font-size: 30px;
+	font-family: 'Anton', sans-serif;
+	text-align: justify;
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	padding-right: 20px;
+}
+
+.box2 {
+	display: flex;
+	margin: 0;
+	height: auto;
+	width: 50%;
+}
+
+
+.logo {
+	margin-left: 10%;
+	width: auto;
+	height: auto;
+}
